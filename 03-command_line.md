@@ -20,7 +20,17 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> >
+pwd * show current working directory path  
+mkdir directory * creating a directory   
+rm -R directory * deleting a directory  
+touch file.txt * creating a file using `touch` command  
+rm file.txt * deleting a file  
+mv file.txt file2.txt * renaming a file  
+ls -a * listing hidden files  
+cp directorya/txt.file directoryb/ * copying a file from one directory to another  
+ls -t * sorts by modify date  
+ls -l * displays contents in long format  
 
 ---
 
