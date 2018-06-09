@@ -21,16 +21,16 @@ Here's a list of items with which you should be familiar:
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
 > >
-pwd * show current working directory path  
-mkdir directory * creating a directory   
-rm -R directory * deleting a directory  
-touch file.txt * creating a file using `touch` command  
-rm file.txt * deleting a file  
-mv file.txt file2.txt * renaming a file  
-ls -a * listing hidden files  
-cp directorya/txt.file directoryb/ * copying a file from one directory to another  
-ls -t * sorts by modify date  
-ls -l * displays contents in long format  
+> > pwd * show current working directory path  
+> > mkdir directory * creating a directory   
+> > rm -R directory * deleting a directory  
+> > touch file.txt * creating a file using `touch` command  
+> > rm file.txt * deleting a file  
+> > mv file.txt file2.txt * renaming a file  
+> > ls -a * listing hidden files  
+> > cp directorya/txt.file directoryb/ * copying a file from one directory to another  
+> > ls -t * sorts by modify date  
+> > ls -l * displays contents in long format  
 
 ---
 
@@ -44,15 +44,14 @@ What do the following commands do:
 `ls -lah`  
 `ls -t`  
 `ls -Glp`  
-
-> >   
-ls * list contents  
-ls -a * list contents including hidden files and folders  
-ls -l * list contents in long format  
-ls -lh * list conents in long format and in human readable sizes  
-ls -lah * list contents in long format, human readable size, and includes hidden files and folders  
-ls -t * sorts files by time and date  
-ls -Glp * list contents in long format, exclude owner column, and add a / at the end of the directories  
+  
+> > ls * list contents  
+> > ls -a * list contents including hidden files and folders  
+> > ls -l * list contents in long format  
+> > ls -lh * list conents in long format and in human readable sizes  
+> > ls -lah * list contents in long format, human readable size, and includes hidden files and folders  
+> > ls -t * sorts files by time and date  
+> > ls -Glp * list contents in long format, exclude owner column, and add a / at the end of the directories  
 
 
 ---
@@ -61,7 +60,12 @@ ls -Glp * list contents in long format, exclude owner column, and add a / at the
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > ls -d * list only directories  
+> > ls -u * list files by access time  
+> > ls -m * displays names as comma seperated list  
+> > ls -r * displays files in reverse order  
+> > ls -x * displays files as rows across screen  
+
 
 ---
 
