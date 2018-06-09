@@ -73,7 +73,8 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
-
+> > xargs typically passes an output of one command as an argument for another command. An example of this would be  
+> > find ./work -print | xargs grep "profit"  
+> > This finds files in the folder work and passes each one to grep to search for the word "class".  
  
 
