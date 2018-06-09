@@ -45,7 +45,15 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> >   
+ls * list contents  
+ls -a * list contents including hidden files and folders  
+ls -l * list contents in long format  
+ls -lh * list conents in long format and in human readable sizes  
+ls -lah * list contents in long format, human readable size, and includes hidden files and folders  
+ls -t * sorts files by time and date  
+ls -Glp * list contents in long format, exclude owner column, and add a / at the end of the directories  
+
 
 ---
 
